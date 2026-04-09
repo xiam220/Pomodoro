@@ -1,15 +1,37 @@
+.shared-greeting {
+  margin: 0;
+  color: white;
+}
+
 .welcome-message {
-  text-align: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  padding-top: 5%;
 }
 
 .date-today {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.difficulty-selection{
+.page-text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
   align-items: flex-end;
+}
+
+.pomodoro-mode {
+  align-items: flex-end;
+}
+
+.pomodoro-mode:visited {
+  color: white;
 }
 
 
